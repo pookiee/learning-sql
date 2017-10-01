@@ -6,4 +6,7 @@ SQLITE is pretty good at basically everything basic except large datasets and cl
 
 today I was working on the dataset of cereal and I noticed that there is a correlation between the rating of the cereal and ingredients like sugars, carbs, and fats. The highest rating cereals have lower sugars, fats, and carbs.
 
+SELECT fat, sugars, sodium, rating FROM cereal WHERE rating > 60 ORDER BY name
 ![sql cereal 1](https://user-images.githubusercontent.com/31829494/31058412-f1a1d744-a6a7-11e7-9559-dca65aeaf330.PNG)
+
+An SQL query walks sees two tables he walks up and asks "can I join you?"
