@@ -8,5 +8,7 @@ today I was working on the dataset of cereal and I noticed that there is a corre
 
 SELECT fat, sugars, sodium, rating FROM cereal WHERE rating > 60 ORDER BY name
 ![sql cereal 1](https://user-images.githubusercontent.com/31829494/31058412-f1a1d744-a6a7-11e7-9559-dca65aeaf330.PNG)
-
 An SQL query walks sees two tables he walks up and asks "can I join you?"
+
+
+Today I learned how to combine unique SQL queries into one query using the UNION term which combines SELECT statements that could usually not be combined such as what I did looking up the average of different column values (shelf). It is incredibly helpful because it allows efficiency when working. 
