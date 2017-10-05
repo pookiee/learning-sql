@@ -11,5 +11,5 @@ SELECT fat, sugars, sodium, rating FROM cereal WHERE rating > 60 ORDER BY name
 An SQL query walks sees two tables he walks up and asks "can I join you?"
 
 
-Today I learned how to combine unique SQL queries into one query using the UNION term which combines SELECT statements that could usually not be combined such as what I did looking up the average of different column values (shelf). It is incredibly helpful because it allows efficiency when working. 
+Today I learned how to combine unique SQL queries into one query using the UNION term which combines SELECT statements that could usually not be combined such as what I did looking up the average of sugars under a different where value (shelf). It is incredibly helpful because it allows efficiency when working. 
 ![sql cereal 2](https://user-images.githubusercontent.com/31829494/31257226-4536d1e2-a9ec-11e7-8412-595e9b63c386.PNG)
