@@ -11,5 +11,8 @@ SELECT fat, sugars, sodium, rating FROM cereal WHERE rating > 60 ORDER BY name
 An SQL query walks sees two tables he walks up and asks "can I join you?"
 
 
-Today I learned how to combine unique SQL queries into one query using the UNION term which combines SELECT statements that could usually not be combined such as what I did looking up the average of sugars under a different where value (shelf). It is incredibly helpful because it allows efficiency when working. 
+Today I learned how to combine unique SQL queries into one query using the UNION term which combines SELECT statements that could usually not be combined such as what I did looking up the average of sugars under a different where value (shelf). It is incredibly helpful because it allows efficiency when working. And It appears that 
 ![sql cereal 2](https://user-images.githubusercontent.com/31829494/31257226-4536d1e2-a9ec-11e7-8412-595e9b63c386.PNG)
+
+
+I also figured out how to use mulitplay functions when selecting a column. I used both the average and round function in the query to find the augmented potass from the cereal table. The round function in SQLite is unique because you first enter the value that you want to round then the value you want it rounded to; it will automatically round off decimals unless otherwise noted in the second value of the round. 
