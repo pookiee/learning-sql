@@ -15,4 +15,5 @@ Today I learned how to combine unique SQL queries into one query using the UNION
 ![sql cereal 2](https://user-images.githubusercontent.com/31829494/31257226-4536d1e2-a9ec-11e7-8412-595e9b63c386.PNG)
 
 
-I also figured out how to use mulitplay functions when selecting a column. I used both the average and round function in the query to find the augmented potass from the cereal table. The round function in SQLite is unique because you first enter the value that you want to round then the value you want it rounded to; it will automatically round off decimals unless otherwise noted in the second value of the round. 
+I also figured out how to use mulitplay functions when selecting a column. I used both the average and round function in the query to find the augmented potass from the cereal table. The round function in SQLite is unique because you first enter the value that you want to round then the value you want it rounded to; it will automatically round off decimals unless otherwise noted in the second value of the round. ![sql cereal 3](https://user-images.githubusercontent.com/31829494/31257801-9ef7f6ea-a9ef-11e7-877c-962b3ac0998f.PNG)
+
