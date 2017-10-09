@@ -17,3 +17,17 @@ Today I learned how to combine unique SQL queries into one query using the UNION
 
 I also figured out how to use mulitplayer functions when selecting a column. I used both the average and round function in the query to find the augmented potassium from the cereal table. The round function in SQLite is unique because you first enter the value that you want to round then the value you want it rounded to; it will automatically round off decimals unless otherwise noted in the second value of the round. ![sql cereal 3](https://user-images.githubusercontent.com/31829494/31257801-9ef7f6ea-a9ef-11e7-877c-962b3ac0998f.PNG)
 
+
+SQl Injection notes from https://www.veracode.com/security/sql-injection  
+SQL injections result from insufficient protection a website’s database security, people who use these tricks can get data from a website such as: passwords, email address, credit card, and much more. SQL injections happen when a person enters in SQL queries to a website, such as adding improper syntaxes to the asked information. If a website asked for your username and password a person could enter in kris’  for the username, if the website didn’t take precautions to prevent injections. When the person enters this in (kris’) with the apostrophe into the website with low protection the website could reveal the name of tables and information allowing the “hacker” to make SQL queries that relate to the databases meaning the database could reveal private information. This works because all websites (or most) when they ask for a password and/or username they compare the answer you gave with a data set inside of the database, if it matches (or is true) then you are allowed in. 
+
+SQL allows for people to do the following:
+~Logging into a website without correct information. 
+~Altering data by either adding or deleting data values into the database. For example you could change someone's bank balance (but it's unlikely because banks won’t fall for SQL injections).
+~The final thing that SQL injections allow is the ability to receive data that is private to people. For example getting credit card information.
+
+SQL injections are two part attacks
+First the user will enter in random data that the website would not expect to be entered in, this includes names with weird syntaxes, queries, and other bigs a phrase. People try to test out the website seeing how it responds.
+The second part is entering in actual queries to get data back or get accesses to the website.
+
+
