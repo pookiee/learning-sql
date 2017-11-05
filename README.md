@@ -39,3 +39,17 @@ So although this isn't completely sql related but a lot of it is using HTML/Java
 
 realistic mission #4 was a real world application of SQL injection. When I first saw the website I looked it over and visted all the sub-domains of it. Looking at the DNS of the website it was obvsious that it uses MySql because of the PHP after this I began looking for the table name which was email, I figured this out after entering a 'or 1=1-- then I entered in my email and found that the entire name, email. After I figured out the table columns I entered in a UNION ALL SELECT and filled out null for the values like products the other column names then put * for the email list into the link up above and it brought me to see the emails of the buyers.
 
+
+SQL Interview questions
+
+What is SQLite?
+-Free open source program that uses SQL as its centerpiece for relational DBMS. And SQLite has low capablity to be used as a server. 
+
+How to AUTOINCREMENT a table?
+-if you already made a table you would have to add another column and add integer AUTOINCRIMENT which would put the values in that table going from one to infitniy in order, you can also add Integer PRIMARY KEY AUTOINCRIMENT its the same but deals with unique values, its  bascially the same as putting a ORDER BY when you define a columns values. 
+
+Difference between union and union all?
+-Union factors out repeating results while union all whill show all results even duplicates in a joined query. 
+
+Why does SQLite get corrupt?
+-When the data is loaded from a save sometimes it has problems understand the binary to CSV so the language of the CSV doesn't make sense to SQLite resulting in a error. 
