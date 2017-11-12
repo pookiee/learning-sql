@@ -53,3 +53,6 @@ Difference between union and union all?
 
 Why does SQLite get corrupt?
 -When the data is loaded from a save sometimes it has problems understand the binary to CSV so the language of the CSV doesn't make sense to SQLite resulting in a error. 
+
+
+https://docs.google.com/document/d/1E7-PSSO4CF5q2AfjpZjasMpC0t61-c_f56QgW_PuUHQ/edit?usp=sharing
